@@ -263,3 +263,68 @@ footer {
     }
 
 }
+/* SKILLS SECTION */
+
+.section-intro {
+    max-width: 650px;
+    margin-top: 20px;
+    color: #52606d;
+    font-size: 17px;
+}
+
+
+.skill-card {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    padding: 32px;
+
+    transition: transform 0.2s ease,
+                box-shadow 0.2s ease;
+}
+
+
+.skill-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+}
+
+
+.skill-icon {
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+    margin-bottom: 30px;
+
+    color: #6b7280;
+}
+
+
+.skill-card h3 {
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+
+.skill-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9px;
+}
+
+
+.skill-list li {
+    border: 1px solid #d1d5db;
+
+    padding: 7px 11px;
+
+    border-radius: 20px;
+
+    font-size: 13px;
+
+    color: #374151;
+}
